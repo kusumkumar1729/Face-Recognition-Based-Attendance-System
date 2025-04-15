@@ -123,6 +123,8 @@ def start():
             cv2.putText(frame, f'{identified_person}', (x,y-15), cv2.FONT_HERSHEY_COMPLEX, 1, (255,255,255), 1)
             cv2.rectangle(frame, (x,y), (x+w, y+h), (50,50,255), 1)
         imgBackground[162:162 + 480, 55:55 + 640] = frame
+        
+
         cv2.imshow('Attendance', imgBackground)
         if cv2.waitKey(1) == 27:
             break
