@@ -39,14 +39,6 @@ This is a Flask-based web application for a **Face Recognition-Based Attendance 
 | 🗂️ SQLite | Embedded database for student and attendance data |
 | 💻 HTML/CSS/JS | Frontend interface |
 
----
-
-## 📹 Demo
-
-https://user-images.githubusercontent.com/your-username/demo-video.mp4  
-<!-- Replace the above link with your actual video file link from GitHub -->
-
----
 
 ## 🧪 Installation
 
@@ -72,4 +64,6 @@ python app.py
 ```bash
 http://127.0.0.1:5000
 ```
+
+
 
